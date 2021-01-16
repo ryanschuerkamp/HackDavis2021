@@ -1,0 +1,24 @@
+h1 {
+    color: blue;
+    background: whitesmoke;
+}
+body {
+    background-color: #1a1a19;
+    font-family: Arial;
+    font-size: 32px;
+    color: white;
+}
+#left {
+    float: left;
+}
+#right {
+    float: right;
+}
+img {
+    /* Comment */
+    width: 50%;
+}
+#things {
+    font: Arial Bold;
+    font-size: 16px;
+}
