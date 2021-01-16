@@ -1,3 +1,7 @@
+wings = {'EW':'East Wing','SW': 'South Wing', 'WW': 'West Wing', 'NW':'North Wing'}
+
+
+
 class Patient:
     def __init__(self,name,age,stay,location,condition):
         self.name = name
@@ -25,7 +29,7 @@ class Room:
     # for simplicity we will make one room have only one patient
     def __init__(self,number, wing):
         self.number = number
-        self.wing = locations[wing]
+        self.wing = wings[wing]
         self.patients = []
         self.occupancy = False
     def add_patient(self,patient):
@@ -35,4 +39,15 @@ class Room:
         return len(self.patients)
     def __str__(self):
         return f'Room {self.number} on {self.wing} ' +'\n'+f'patient: {str(self.patients[0])}'
+   
+# the hospital will contain all the rooms and inturn all the patients
+# let's say we want a hospital with 50 rooms on each wing for 200 room total
+class Hospital:
+    def __init__(self):
+        self.rooms = []
+        for x in range(50):
+            for y in wings:
+                self.rooms.append(Room(x,y))
+    def __len__(self):
+        return len(self.rooms)
         
