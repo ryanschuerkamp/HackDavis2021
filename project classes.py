@@ -69,9 +69,11 @@ with open('patients.csv','r') as f:
         condition = x[3]
         patient_list.append(Patient(name,age,stay,condition))
 
-# using this batch of patients we add them to the hospital rooms. for simplicity i added themto fill the rooms in order
+# using this batch of patients we add them to the hospital rooms. for simplicity i added them to fill the rooms in order
 i = 0
 for x in patient_list:
     my_hospital.rooms[i].add_patient(x)
     i += 1
+    
+   
         
