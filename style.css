@@ -9,10 +9,20 @@ body {
     color: white;
 }
 #left {
+    margin-top: 50px;
+    max-width: 1000px;
+    margin-right: 0px;
+    text-align: left;
     float: left;
+    overflow: auto;
 }
 #right {
+    margin-top: 0px;
+    max-width: 1000px;
+    margin-right: 0px;
+    text-align: right;
     float: right;
+    overflow: auto;
 }
 img {
     /* Comment */
@@ -21,4 +31,15 @@ img {
 #things {
     font: Arial Bold;
     font-size: 16px;
+}
+h3 {
+    max-width: 400px;
+}
+.grow {
+    position: absolute;
+}
+head {
+    margin-bottom: 100px;
+    text-align: left;
+    float: left;
 }
