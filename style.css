@@ -7,6 +7,7 @@ body {
     font-family: Arial;
     font-size: 32px;
     color: white;
+    /* display: flex; */
 }
 #left {
     margin-top: 50px;
