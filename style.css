@@ -45,11 +45,11 @@ head {
 }
 #float {
     float: left;
-    width: 450px;
+    width: 25%;
     padding: 5px;
 }
 #left::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
