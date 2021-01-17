@@ -30,10 +30,19 @@ db.generate_mapping(create_tables=True)
 
 Functions:
 with db_session:
-  River_Hospital = Hospital()
-  for x in range(10):
-      for y in wings:
-          created_room = Room(number=x, wing = y)
-          River_Hospital.rooms.add(created_room)
-   #created a Hospital with 50 rooms
+  #create a Hospital with 40 rooms
+    River_Hospital = Hospital()
+    for x in range(10):
+        for y in wings:
+            created_room = Room(number=x, wing = y)
+            River_Hospital.rooms.add(created_room)
+   # create patients and assign to each room
+    i = 0
+    for x in patient_list:
+        x.location = list(River_Hospital.rooms)[i]
+        i+= 1
+     
+        
+
+
   
