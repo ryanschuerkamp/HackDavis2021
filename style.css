@@ -26,7 +26,7 @@ body {
 }
 img {
     /* Comment */
-    width: 50%;
+    width: 100%;
 }
 #things {
     font: Arial Bold;
@@ -45,7 +45,7 @@ head {
 }
 #float {
     float: left;
-    width: 400px;
+    width: 450px;
     padding: 5px;
 }
 #left::after {
