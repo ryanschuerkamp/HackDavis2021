@@ -7,11 +7,10 @@ body {
     font-family: Arial;
     font-size: 32px;
     color: white;
-    /* display: flex; */
+    
 }
 #left {
     margin-top: 50px;
-    max-width: 1000px;
     margin-right: 0px;
     text-align: left;
     float: left;
@@ -44,3 +43,13 @@ head {
     text-align: left;
     float: left;
 }
+#float {
+    float: left;
+    width: 400px;
+    padding: 5px;
+}
+#left::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
