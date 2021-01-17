@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head> <!-- Head will not be displayed -->
-        <title>Welcome Page</title>
+        <title>Hospital Dashboard</title>
         <link rel="stylesheet" type="text/css" href="style.css" />
         <script>
             function HomePage() {
                 document.location.href = 'index.html';
             }
+            function OtherPage() {
+                document.location.href = 'other.html';
+            }
+            function Dasboard() {
+                document.location.href = 'dashboard.html';
+            }
         </script>
     </head>
     <body>
         <button onclick="HomePage()">Home</button>
+        <button onclick="Dashboard()">Dashboard</button>
+        <button onclick="OtherPage()">Other</button>
             <div id="left">
                 <h3>Length of Stay</h3>
                 <img src="average_stay_graph.png" />
