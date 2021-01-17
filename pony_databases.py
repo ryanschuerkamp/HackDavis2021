@@ -24,7 +24,7 @@ class Hospital(db.Entity):
     rooms = Set(Room)
     
 
-db.bind(provider='sqlite', filename=':memory:')
+db.bind(provider='sqlite', filename=r'C:\Users\Anast\new.db', create_db=True)
 
 db.generate_mapping(create_tables=True)
 
@@ -42,7 +42,11 @@ with db_session:
         x.location = list(River_Hospital.rooms)[i]
         i+= 1
      
-        
+import pandas as pd  
+from sqlalchemy import create_engine     
+cnx = create_engine('sqlite:///new.db').connect()
+
+df = pd.read_sql_table('Patient', cnx)
 
 
   
