@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head> <!-- Head will not be displayed -->
-        <title>Welcome Page</title>
+        <title>Patient View</title>
         <link rel="stylesheet" type="text/css" href="style.css" />
         <script>
             function HomePage() {
@@ -16,32 +16,29 @@
         </script>
     </head>
     <body>
-        <button onclick="HomePage()">Home</button>
-        <button onclick="DashboardPage()">Dashboard</button>
-        <button onclick="OtherPage()">Other</button>
             <div id="left">
-                <h3>Length of Stay</h3>
-                <img src="average_stay_graph.png" />
-                <h3>Bed Utilization Rate</h3>
-                <img src="bed_utilization_pie.png" />
-                <h3>Average length of stay for treatment</h3>
-                <img src="incidents_area.png" />
-                <h3>Location</h3>
-            </div>
-            <div id = "right">
-                <h2>Favorite things about patient</h2>
+                <button onclick="HomePage()">Home</button>
+                <button onclick="DashboardPage()">Dashboard</button>
+                <button onclick="OtherPage()">Patient View</button>
+                <h1>Patient View</h1>
+                <h2>Favorites</h2>
                 <div id="things">
-                    <h4>TV_________________________</h4>
-                    <h4>MOVIE______________________</h4>
-                    <h4>GAMES______________________</h4>
-                    <h4>BOOKS______________________</h4>
-                    <h4>FOOD_______________________</h4>
+                    <h3>TV Show: <a href="https://www.imdb.com/title/tt1190634/" style="color:white;"> The Boys</a></h3>
+                    <h3>Movie: <a href="https://www.imdb.com/title/tt1375666/" style="color:white;"> Inception</a></h3>
+                    <h3>Game: <a href=" https://www.ubisoft.com/en-us/game/assassins-creed/odyssey" style="color:white;">Assassin's Creed Odyssey</a></h3>
+                    <h3>Book: <a href="https://www.amazon.com/Black-Swan-Improbable-Robustness-Fragility/dp/081297381X" style="color:white;"> The Black Swan </a></h3>
+                    <h3>Food: <a href="https://www.google.com/search?q=salmon&tbm=isch&ved=2ahUKEwjC6_3YlaLuAhVB96wKHWWYA6AQ2cCegQIABAA&oq=salmon&gs_lcp=CgNpbWcQA1AAWABg3i9oAHAAeACAAQCIAQCSAQCYAQCqAQtnd3Mtd2l6LWltZw&sclient=img&ei=RcIDYIK1OMHuswXlsI6ACg&bih=750&biw=1440&rlz=1C5CHFA_enUS881US881&hl=en" style="color:white;"> Salmon</a></h3>
                 </div>
                 <h2>Top visitors</h2>
                 <div id="things">
-                    <h4>MOM_________________________</h4>
-                    <h4>DAD_________________________</h4>
+                    <h3>Mom: Comes once a day at noon</h3>
+                    <h3>Dad: Comes once a day at three</h3>
                 </div>
+            </div>
+            <div id="right">
+                <h2>Service Animals</h2>
+                <h4>Loves dogs! Especially: </h4>
+                <img src="my_soul.png" />
             </div>
     </body>
 </html>
