@@ -2,6 +2,10 @@ h1 {
     color: white;
     background: #1a1a19;
 }
+h2 {
+    background-color: rgb(145, 231, 231);
+    color: black;
+}
 body {
     background-color: #1a1a19;
     font-family: Arial;
@@ -46,6 +50,7 @@ head {
 #float {
     float: left;
     width: 24%;
+    margin-right: 100px;
     padding: 5px;
     text-align: center;
 }
@@ -56,4 +61,7 @@ head {
 }
 #button {
     align-items: left;
+}
+#puppy {
+    width: 50%
 }
