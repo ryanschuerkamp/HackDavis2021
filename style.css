@@ -17,8 +17,8 @@ body {
     overflow: auto;
 }
 #right {
-    margin-top: 0px;
-    max-width: 1000px;
+    margin-top: 50px;
+    /* max-width: 1000px; */
     margin-right: 0px;
     text-align: right;
     float: right;
@@ -45,11 +45,14 @@ head {
 }
 #float {
     float: left;
-    width: 25%;
+    width: 24%;
     padding: 5px;
 }
 #left::after {
     content: "";
     clear: both;
     display: table;
+}
+#button {
+    align-items: left;
 }
