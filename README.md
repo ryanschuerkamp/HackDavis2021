@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## Inspiration
+Now more than ever, there is a need for stronger patient relationships and more efficient lines of communication between patients and caregivers. We wanted to improve the health care experience, especially inpatient care, for both patients and caregivers. 
 
-You can use the [editor on GitHub](https://github.com/ryanschuerkamp/HackDavis2021/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## What it does
+Provides a centralized application that displays key hospital-wide metrics and information about patients to increase operating efficiency and improve caregiver-patient relationships. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## How we built it
+We used HTML and CSS to build out the website and Python and SQL for data collection and visualization. We used Github Pages to host the website at the following URL: [link](https://ryanschuerkamp.github.io/HackDavis2021/dashboard.html)
 
-### Markdown
+## Challenges we ran into
+Trying to get front-end and back-end to interact with one another was difficult. Creating hypothetical data was also a bit challenging, especially simulating true values for patient value. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Accomplishments that we're proud of
+Deploying the website and how polished it looks. Learning more about HTML and CSS. 
 
-```markdown
-Syntax highlighted code block
+## What we learned
+We learned how to deploy a website using Github Pages, how to work with HTML and CSS, and how to apply Python data science skills to work on a real-world problem. 
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ryanschuerkamp/HackDavis2021/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## What's next for Personalized Hospital Dashboard
+In the future, we want a centralized database and make the dashboards interactive and update in real-time. Interact with the Internet of Things to monitor patient vitals, potentially opening the door to immediate patient care made possible through emerging technologies. 
